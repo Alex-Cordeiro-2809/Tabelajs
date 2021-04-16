@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 650px;
+    background-image: url('https://jpimg.com.br/uploads/2020/12/paulistao-1-1024x682.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #000000;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #000000;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+h1 :hover{
+    border: solid 2px #000000;
+}
+
+th, tr, td {
+    border: solid 2px #000000;
+    color: #000000;
+    font-weight: bold;
+}
